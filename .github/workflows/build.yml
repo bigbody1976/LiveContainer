@@ -20,7 +20,6 @@ jobs:
     outputs:
       scheme: ${{ steps.scheme.outputs.scheme }}
       archive_path: ${{ env.archive_path }}
-
     steps:
       - uses: maxim-lobanov/setup-xcode@v1
         with:
